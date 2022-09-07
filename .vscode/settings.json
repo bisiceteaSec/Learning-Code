@@ -3,6 +3,9 @@
         "iosfwd": "cpp",
         "iostream": "cpp",
         "iomanip": "cpp",
-        "ostream": "cpp"
-    }
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
 }
