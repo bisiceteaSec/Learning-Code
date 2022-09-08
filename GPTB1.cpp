@@ -26,9 +26,9 @@ int main() // Way1
     {
         x = (double) Dx / D;
         y = (double) Dy / D;
-        if (x == -0.0 )
+        if (x == -0.0)
             x = fabs(x);
-		if (y == -0.0 )
+	if (y == -0.0)
             y = fabs(y);
         cout << setprecision(2) << fixed << x << " " << y;
     }
