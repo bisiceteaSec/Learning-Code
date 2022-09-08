@@ -3,7 +3,7 @@ using namespace std;
 
 int main() // Way1
 {
-	double a1, b1, c1, a2, b2, c2;
+    double a1, b1, c1, a2, b2, c2;
     double D, Dx, Dy, x, y;
     cin >> a1 >> b1 >> c1 >> a2 >> b2 >> c2;
     D = a1 * b2 - a2 * b1;
