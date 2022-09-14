@@ -8,5 +8,9 @@ int main()
     cout.tie(0);
     cin.tie(0);
 
-    
+    ll n, S = 1;
+    cin >> n;
+    for (int i = 2; i <= n; i++)
+        S += pow(i, 2);
+    cout << S;
 }
