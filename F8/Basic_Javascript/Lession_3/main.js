@@ -9,7 +9,7 @@
 // else
 //     alert('Wrong!')
 
-// if (a > 0 && b > 0)
+// if (a > 0 || b > 0)
 //     alert('a > 0 and b > 0')
 // else
 //     alert('bruh!')
@@ -23,7 +23,19 @@
 // console.log(firstName + ' ' + lastName)
 
 
-var id = Symbol('id');
-var id2 = Symbol('id');
+// var id = Symbol('id');
+// var id2 = Symbol('id');
 
-console.log(id, id2);
+// console.log(id, id2);
+
+
+var a = 1, b = 2;
+
+var result = 'A' || 'B' || 'C';
+
+console.log(result);
+
+if (result)
+    console.log('TRUE');
+else
+    console.log('FALSE')
